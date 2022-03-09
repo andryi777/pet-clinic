@@ -4,6 +4,7 @@ if (currentBuild.buildCauses.toString().contains('BranchIndexingCause')) {
     return
 }
 
+
 pipeline {
     agent none
     stages {
